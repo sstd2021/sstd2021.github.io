@@ -15,6 +15,18 @@
 <script type="text/javascript" src="lib/init_map.js"></script>
 <script type="text/javascript" src="lib/frontend_main.js"></script>
 
+<script type="text/javascript">
+let options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric', timeZoneName: 'short'};
+
+window.onload = function(){
+    document.getElementById('slot1time').innerHTML = '&nbsp;&nbsp;<i><font color="orangered">Your Local Time:&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 6:00:00 AM UTC').toLocaleString('en-US', options) + '&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 10:00:00 AM UTC').toLocaleString('en-US', options) + '</font></i>';
+
+    document.getElementById('slot2time').innerHTML = '&nbsp;&nbsp;<i><font color="orangered">Your Local Time:&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 2:00:00 PM UTC').toLocaleString('en-US', options) + '&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 6:00:00 PM UTC').toLocaleString('en-US', options) + '</font></i>';
+
+    document.getElementById('slot3time').innerHTML = '&nbsp;&nbsp;<i><font color="orangered">Your Local Time:&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 9:00:00 PM UTC').toLocaleString('en-US', options) + '&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/25/2021 1:30:00 AM UTC').toLocaleString('en-US', options) + '</font></i>';
+};
+</script>
+
 <style type="text/css" id="wp-custom-css">
 
 .icdeparagraph {
@@ -294,7 +306,7 @@ table.blueTable tfoot .links a{
 		<div class="site-branding">
 			<a href="index.html" class="custom-logo-link" rel="home" itemprop="url"><img width="240" src="img/logo.jpg" class="custom-logo" alt="SSTD 2021" itemprop="logo"></a>
 				<p class="site-title"><a href="index.html" rel="home">17th International Symposium on Spatial and Temporal Databases</a></p>
-				<p class="site-description">August 23-25, 2021 @ Online (Possibly Hybrid Mode to be Decided Later)</a></p>
+				<p class="site-description">August 23-25, 2021 @ Online</a></p>
 		</div><!-- .site-branding -->
 
 <button id="menu-toggle" class="menu-toggle">Menu</button>
@@ -353,6 +365,10 @@ table.blueTable tfoot .links a{
 <tbody>
 
 <tr>
+<td id="slot1time"></td>
+</tr>
+
+<tr>
 <td>&nbsp;&nbsp;<b>Opening</b></td>
 </tr>
 
@@ -398,6 +414,10 @@ table.blueTable tfoot .links a{
 </thead>
 
 <tbody>
+
+<tr>
+<td id="slot2time"></td>
+</tr>
 
 <tr>
 <td>&nbsp;&nbsp;<b>Keynote Speech 2</b></td>
@@ -451,6 +471,10 @@ table.blueTable tfoot .links a{
 </thead>
 
 <tbody>
+
+<tr>
+<td id="slot3time"></td>
+</tr>
 
 <tr>
 <td>&nbsp;&nbsp;<b>Keynote Speech 3</b></td>
