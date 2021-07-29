@@ -19,11 +19,11 @@
 let options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric', timeZoneName: 'short'};
 
 window.onload = function(){
-    document.getElementById('slot1time').innerHTML = '&nbsp;&nbsp;<i><font color="orangered">Your Local Time:&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 6:00:00 AM UTC').toLocaleString('en-US', options) + '&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 10:00:00 AM UTC').toLocaleString('en-US', options) + '</font></i>';
+    document.getElementById('slot1time').innerHTML = '&nbsp;&nbsp;<font color="orangered"><b>Your Local Time:</b>&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 6:00:00 AM UTC').toLocaleString('en-US', options) + '&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 10:00:00 AM UTC').toLocaleString('en-US', options) + '</font>';
 
-    document.getElementById('slot2time').innerHTML = '&nbsp;&nbsp;<i><font color="orangered">Your Local Time:&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 2:00:00 PM UTC').toLocaleString('en-US', options) + '&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 6:00:00 PM UTC').toLocaleString('en-US', options) + '</font></i>';
+    document.getElementById('slot2time').innerHTML = '&nbsp;&nbsp;<font color="orangered"><b>Your Local Time:</b>&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 2:00:00 PM UTC').toLocaleString('en-US', options) + '&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 6:15:00 PM UTC').toLocaleString('en-US', options) + '</font>';
 
-    document.getElementById('slot3time').innerHTML = '&nbsp;&nbsp;<i><font color="orangered">Your Local Time:&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 9:00:00 PM UTC').toLocaleString('en-US', options) + '&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/25/2021 1:30:00 AM UTC').toLocaleString('en-US', options) + '</font></i>';
+    document.getElementById('slot3time').innerHTML = '&nbsp;&nbsp;<font color="orangered"><b>Your Local Time:</b>&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/24/2021 9:00:00 PM UTC').toLocaleString('en-US', options) + '&nbsp;&nbsp;&nbsp;&nbsp;--&nbsp;&nbsp;&nbsp;&nbsp;' + new Date('8/25/2021 1:20:00 AM UTC').toLocaleString('en-US', options) + '</font>';
 };
 </script>
 
@@ -354,175 +354,266 @@ table.blueTable tfoot .links a{
 
 <header class="entry-header"><h1 class="entry-title">Detailed Program</h1></header>
 
+<header><h2><font color="#2e74b5">Time Group 1: 06:00 – 10:00 (UTC) 24 August</font></h2></header>
+<br><div id="slot1time"></div><br>
 <p class="icdeparagraph">
+<b>06:00 – 06:15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Opening</b>
+<br>
+<b>06:15 – 07:15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Keynote Speech 1</b>
+<br>
+<b>07:20 – 10:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Track (Session 1)</b>
 <table class="blueTable">
-<thead>
-<tr>
-<th>Time Slot 1: &nbsp;&nbsp;&nbsp;6am-10am on 24 Aug (Tue)&nbsp;&nbsp;&nbsp;(UTC)</th>
-</tr>
-</thead>
-
 <tbody>
 
 <tr>
-<td id="slot1time"></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;<b>Opening</b></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;<b>Keynote Speech 1</b></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;<b>Research Track (Session 1)</b>
-<!-- <br>
-&nbsp;&nbsp;(1 papers from Asia; 5 papers from Europe) -->
-<ul>
-<li style="list-style-type: none;">
-8.&nbsp;&nbsp;&nbsp;Xieyang Wang, Jianqiu Xu and Hua Lu, “NALMO: A Natural Language Interface for Moving Objects Databases” (Best Paper Candidate)
-</li>
-<li style="list-style-type: none;">
-32.&nbsp;&nbsp;&nbsp;Hannah Bast, Patrick Brosi and Sabine Storandt, “Metro Maps on Flexible Base Grids” (Best Paper Candidate)
-</li>
-<li style="list-style-type: none;">
-7.&nbsp;&nbsp;&nbsp;Teddy Cunningham, Graham Cormode and Hakan Ferhatosmanoglu, “Privacy-Preserving Synthetic Location Data in the Real World”
-</li>
-<li style="list-style-type: none;">
-20.&nbsp;&nbsp;&nbsp;Carola Trahms, Patricia Handmann, Willi Rath, Martin Visbeck and Matthias Renz, “Where have all the larvae gone? Towards Fast Main Pathway Identification from Geospatial Trajectories”
-</li>
-<li style="list-style-type: none;">
-35.&nbsp;&nbsp;&nbsp;Kasper F. Pedersen and Kristian Torp Geolocating, “Traffic Signs using Large Imagery Datasets”
-</li>
-<li style="list-style-type: none;">
-65.&nbsp;&nbsp;&nbsp;Abdullah Aldwyish, Egemen Tanin, Hairuo Xie, Shanika Karunasekera and Kotagiri Ramamohanarao, “Effective Traffic Forecasting with Multi-Resolution Learning
-</li></ul></td>
-</tr>
-
-</tbody>
-</table>
-</p>
-
-<p class="icdeparagraph">
-<table class="blueTable">
-<thead>
-<tr>
-<th>Time Slot 2: &nbsp;&nbsp;&nbsp;2pm-6pm on 24 Aug (Tue)&nbsp;&nbsp;&nbsp;(UTC)</th>
-</tr>
-</thead>
-
-<tbody>
-
-<tr>
-<td id="slot2time"></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;<b>Keynote Speech 2</b></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;<b>Research Track (Session 2)</b>
-<!-- <br>
-&nbsp;&nbsp;(3 papers from Europe) -->
-<ul>
-<li style="list-style-type: none;">
-25.&nbsp;&nbsp;&nbsp;Panagiotis Tampakis, Dimitris Spyrellis, Christos Doulkeridis, Nikos Pelekis, Christos Kalyvas and Akrivi Vlachou, “A Novel Indexing Method for Spatial-Keyword Range Queries” (Best Paper Candidate)
-</li>
-<li style="list-style-type: none;">
-38.&nbsp;&nbsp;&nbsp;Yuta Kasai, Kento Sugiura and Yoshiharu Ishikawa, “Spatial Skyline Queries on Triangulated Irregular Networks”
-</li>
-<li style="list-style-type: none;">
-10.&nbsp;&nbsp;&nbsp;Harry Kai-Ho Chan, Tiantian Liu, Huan Li and Hua Lu, “Time-Constrained Indoor Keyword-aware Routing” (Best Paper Candidate)
-</li></ul></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;<b>Demo Track</b>
-<!-- <br>
-&nbsp;&nbsp;(1 paper from US; 3 papers from Europe) -->
-<ul>
-<li style="list-style-type: none;">
-56.&nbsp;&nbsp;&nbsp;Xu Teng, Adam Corpstein, Joel Holm, Willis Knox, Becker Mathie, Philip Payne, Ethan Vander Wiel, Prabin Giri, Goce Trajcevski, Aaron Dotter, Jeff Andrews, Scott Coughlin, Ying Qin, Juan Gabriel Serra-Perez, Nam Tran, Jaime Roman-Garja, Konstantinos Kovlakas, Emmanouil Zapartas, Simone Bavera, Devina Misra and Tassos Fragos, “CACSE: Context Aware Clustering of Stellar Evolution”
-</li>
-<li style="list-style-type: none;">
-42.&nbsp;&nbsp;&nbsp;Hafsa El Hafyani, Mohammad Abboud, Jingwei Zuo, Karine Zeitouni and Yehia Taher, “Tell Me What Air You Sense/Breath, I Tell You Where You Are”
-</li>
-<li style="list-style-type: none;">
-49.&nbsp;&nbsp;&nbsp;Thorge Petersen, Muhammad Asif Suryani, Christian Beth, Hardik Patel, Klaus Wallmann and Matthias Renz, “Geo-Quantities: A Framework for Automatic Extraction of Measurements and Spatial Context from Scientific Documents”
-</li>
-<li style="list-style-type: none;">
-46.&nbsp;&nbsp;&nbsp;Andreas Tritsarolis, Yannis Kontoulis, Nikos Pelekis and Yannis Theodoridis, “MaSEC: Discovering Anchorages and Co-movement Patterns on Streaming Vessel Trajectories”
-</li>
-</ul></td>
-</tr>
-
-</tbody>
-</table>
-</p>
-
-<p class="icdeparagraph">
-<table class="blueTable">
-<thead>
-<tr>
-<th>Time Slot 3: &nbsp;&nbsp;&nbsp;9pm on 24 Aug (Tue) &nbsp;&nbsp;(UTC)&nbsp;&nbsp;—&nbsp;&nbsp;1:30am on 25 Aug (Wed)&nbsp;&nbsp;(UTC)</th>
-</tr>
-</thead>
-
-<tbody>
-
-<tr>
-<td id="slot3time"></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;<b>Keynote Speech 3</b></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;<b>Research Track (Session 3) and Vision Track</b>
-<!-- <br>
-&nbsp;&nbsp;(5 papers from US) -->
-<ul>
-<li style="list-style-type: none;">
-58.&nbsp;&nbsp;&nbsp;Andreas Züfle, Konrad Wessels and Dieter Pfoser, “Mining High Resolution Earth Observation Data Cubes” (Vision Paper)
-</li>
-<li style="list-style-type: none;">
-48.&nbsp;&nbsp;&nbsp;Linas Petkevičius, Simonas Šaltenis, Alminas Čivilis and Kristian Torp, “Probabilistic Deep Learning for Electric-Vehicle Energy-Use Prediction”
-</li>
-<li style="list-style-type: none;">
-5.&nbsp;&nbsp;&nbsp;Songnian Zhang, Suprio Ray, Rongxing Lu and Yandong Zheng, “SPRIG: A Learned Spatial Index for Range and kNN Queries”
-</li>
-<li style="list-style-type: none;">
-52.&nbsp;&nbsp;&nbsp;Ahmed Askar and Andreas Zufle, “Spatio-Temporal Clustering of Adverse Events of Post-Market Approved Drugs using Latent Dirichlet Allocation”
-</li>
-<li style="list-style-type: none;">
-27.&nbsp;&nbsp;&nbsp;Jayant Gupta, Alexander Long, Corey Xu, Tian Tang and Shashi Shekhar, “Spatial Dimensions of Algorithmic Transparency: A Summary”
-</li></ul></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;<b>Industrial Track</b>
-<!-- <br>
-&nbsp;&nbsp;(1 paper from US; 1 paper from Asia) -->
-<ul>
-<li style="list-style-type: none;">
-1.&nbsp;&nbsp;&nbsp;Si Chen, Yuqiu Qian, Hui Li and Chen Lin, “Sequential Recommendation in Online Games with Multiple Sequences, Tasks and User Levels”
-</li>
-<li style="list-style-type: none;">
-40.&nbsp;&nbsp;&nbsp;Dev Oliver, Petko Bakalov, Sangho Kim and Erik Hoel, “Attribute Propagation for Utilities”
-</li></ul></td>
+<td width="35">&nbsp;&nbsp;<b>1</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;07:20 – 07:45&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Xieyang Wang, Jianqiu Xu, and Hua Lu 
+<br>
+&nbsp;&nbsp;“NALMO: A Natural Language Interface for Moving Objects Databases”
 </td>
 </tr>
 
 <tr>
-<td>&nbsp;&nbsp;<b>Closing Remark</b></td>
+<td width="35">&nbsp;&nbsp;<b>2</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;07:45 – 08:10&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Hannah Bast, Patrick Brosi, and Sabine Storandt
+<br>
+&nbsp;&nbsp;“Metro Maps on Flexible Base Grids”
+</td>
 </tr>
 
+<tr>
+<td width="35">&nbsp;&nbsp;<b>3</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;08:10 – 08:35&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Teddy Cunningham, Graham Cormode, and Hakan Ferhatosmanoglu
+<br>
+&nbsp;&nbsp;“Privacy-Preserving Synthetic Location Data in the Real World”
+</td>
+</tr>
+
+<tr>
+  <td colspan="3" style="text-align:center"><b>10-minute break</b></td>
+</tr>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>4</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;08:45 – 09:10&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Carola Trahms, Patricia Handmann, Willi Rath, Martin Visbeck, and Matthias Renz
+<br>
+&nbsp;&nbsp;“Where Have All the Larvae Gone? Towards Fast Main Pathway Identification from Geospatial Trajectories”
+</td>
+</tr>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>5</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;09:10 – 09:35&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Kasper F. Pedersen and Kristian Torp
+<br>
+&nbsp;&nbsp;“Geolocating Traffic Signs using Large Imagery Datasets”
+</td>
+</tr>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>6</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;09:35 – 10:00&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Abdullah Aldwyish, Egemen Tanin, Hairuo Xie, Shanika Karunasekera, and Kotagiri Ramamohanarao
+<br>
+&nbsp;&nbsp;“Effective Traffic Forecasting with Multi-Resolution Learning”
+</td>
+</tr>
 </tbody>
 </table>
+</p>
+
+<br><br><br>
+<header><h2><font color="#2e74b5">Time Group 2: 14:00 – 18:15 (UTC) 24 August</font></h2></header>
+<br><div id="slot2time"></div><br>
+<p class="icdeparagraph">
+<b>14:00 – 15:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Keynote Speech 2</b>
+<br>
+<b>15:10 – 16:25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Track (Session 2)</b>
+<table class="blueTable">
+<tbody>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>1</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;15:10 – 15:35&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Panagiotis Tampakis, Dimitris Spyrellis, Christos Doulkeridis, Nikos Pelekis, Christos Kalyvas, and Akrivi Vlachou
+<br>
+&nbsp;&nbsp;“A Novel Indexing Method for Spatial-Keyword Range Queries”
+</td>
+</tr>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>2</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;15:35 – 16:00&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Yuta Kasai, Kento Sugiura, and Yoshiharu Ishikawa
+<br>
+&nbsp;&nbsp;“Spatial Skyline Queries on Triangulated Irregular Networks”
+</td>
+</tr>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>3</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;16:00 – 16:25&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Harry Kai-Ho Chan, Tiantian Liu, Huan Li, and Hua Lu
+<br>
+&nbsp;&nbsp;“Time-Constrained Indoor Keyword-aware Routing”
+</td>
+</tr>
+</tbody>
+</table>
+
+<b>16:35 – 18:15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Demo Track</b>
+<br>&nbsp;
+<table class="blueTable">
+<tbody>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>1</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;16:35 – 17:00&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Xu Teng, Adam Corpstein, Joel Holm, Willis Knox, Becker Mathie, Philip Payne, Ethan Vander Wiel, Prabin Giri, Goce Trajcevski, Aaron Dotter, Jeff Andrews, Scott Coughlin, Ying Qin, Juan Gabriel Serra-Perez, Nam Tran, Jaime Roman-Garja, Konstantinos Kovlakas, Emmanouil Zapartas, Simone Bavera, Devina Misra and Tassos Fragos
+<br>
+&nbsp;&nbsp;“CACSE: Context Aware Clustering of Stellar Evolution”
+</td>
+</tr>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>2</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;17:00 – 17:25&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Hafsa El Hafyani, Mohammad Abboud, Jingwei Zuo, Karine Zeitouni, and Yehia Taher
+<br>
+&nbsp;&nbsp;“Tell Me What Air You Sense/Breath, I Tell You Where You Are”
+</td>
+</tr>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>3</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;17:25 – 17:50&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Thorge Petersen, Muhammad Asif Suryani, Christian Beth, Hardik Patel, Klaus Wallmann and Matthias Renz
+<br>
+&nbsp;&nbsp;“Geo-Quantities: A Framework for Automatic Extraction of Measurements and Spatial Context from Scientific Documents”
+</td>
+</tr>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>4</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;17:50 – 18:15&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Andreas Tritsarolis, Yannis Kontoulis, Nikos Pelekis, and Yannis Theodoridis
+<br>
+&nbsp;&nbsp;“MaSEC: Discovering Anchorages and Co-movement Patterns on Streaming Vessel Trajectories”
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<br><br><br>
+<header><h2><font color="#2e74b5">Time Group 3: 21:00 – 01:20 (UTC) 24 - 25 August</font></h2></header>
+<br>
+<div id="slot3time"></div><br>
+<p class="icdeparagraph">
+<b>21:00 – 22:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Keynote Speech 3</b>
+<br>
+<b>22:10 – 01:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Track (Session 3)</b>
+<table class="blueTable">
+<tbody>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>1</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;22:10 – 22:35&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Linas Petkevičius, Simonas Šaltenis, Alminas Čivilis, and Kristian Torp
+<br>
+&nbsp;&nbsp;“Probabilistic Deep Learning for Electric-Vehicle Energy-Use Prediction”
+</td>
+</tr>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>2</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;22:35 – 23:00&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Songnian Zhang, Suprio Ray, Rongxing Lu, and Yandong Zheng
+<br>
+&nbsp;&nbsp;“SPRIG: A Learned Spatial Index for Range and kNN Queries”
+</td>
+</tr>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>3</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;23:00 – 23:25&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Ahmed Askar and Andreas Zufle
+<br>
+&nbsp;&nbsp;“Spatio-Temporal Clustering of Adverse Events of Post-Market Approved Drugs using Latent Dirichlet Allocation”
+</td>
+</tr>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>4</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;23:25 – 23:50&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Andreas Züfle, Konrad Wessels, and Dieter Pfoser
+<br>
+&nbsp;&nbsp;“Mining High Resolution Earth Observation Data Cubes”
+</td>
+</tr>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>5</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;23:50 – 00:15&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Jayant Gupta, Alexander Long, Corey Xu, Tian Tang, and Shashi Shekhar
+<br>
+&nbsp;&nbsp;“Spatial Dimensions of Algorithmic Transparency: A Summary”
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<b>00:25 – 01:15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Industrial Track</b>
+<br>&nbsp;
+<table class="blueTable">
+<tbody>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>1</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;00:25 – 00:50&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Si Chen, Yuqiu Qian, Hui Li, and Chen Lin
+<br>
+&nbsp;&nbsp;“Sequential Recommendation in Online Games with Multiple Sequences, Tasks and User Levels”
+</td>
+</tr>
+
+<tr>
+<td width="35">&nbsp;&nbsp;<b>2</b></td>
+<td width="130" style="text-align:center"><b>&nbsp;00:50 – 01:15&nbsp;&nbsp;</b></td>
+<td>
+&nbsp;&nbsp;Dev Oliver, Petko Bakalov, Sangho Kim, and Erik Hoel
+<br>
+&nbsp;&nbsp;“Attribute Propagation for Utilities”
+</td>
+</tr>
+</tbody>
+</table>
+
+<b>01:15 – 01:20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Closing Remarks</b>
 </p>
 
 </article><!-- #post-## -->
